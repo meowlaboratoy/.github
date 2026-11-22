@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/meow-logo.svg" alt="MeowLab" height="72">
+<img src="./assets/banner.webp" alt="MeowLab: agentes de IA para la operación del negocio — Reorder, Sales, Invoice, Stock, Collections, Support y Tender" width="100%">
 
 # MeowLab
 
