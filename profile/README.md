@@ -1,13 +1,11 @@
 <div align="center">
 
-<img src="./assets/banner.webp" alt="MeowLab: agentes de IA para la operación del negocio — Reorder, Sales, Invoice, Stock, Collections, Support y Tender" width="100%">
+<img src="./assets/banner.webp" alt="MeowLab: AI agents for business operations — Reorder, Sales, Invoice, Stock, Collections, Support and Tender" width="100%">
 
-# MeowLab
+**A team of AI agents for Peruvian small businesses, right inside WhatsApp.**
 
-**Un equipo de agentes de IA para las mypes peruanas, dentro de WhatsApp.**
-
-La dueña del negocio les escribe en un solo chat, como a alguien de su equipo,<br>
-y el gato que corresponde hace el trabajo. Lo importante lo confirma ella con un botón.
+The business owner writes to them in a single chat, just like messaging someone on her team,<br>
+and the right cat gets the job done. Anything important, she confirms with one tap.
 
 [meowlab.tech](https://meowlab.tech) · [app.meowlab.tech](https://app.meowlab.tech)
 
@@ -15,74 +13,74 @@ y el gato que corresponde hace el trabajo. Lo importante lo confirma ella con un
 
 ---
 
-## Los gatos
+## Meet the cats
 
-Cada gato es un agente con un trabajo concreto. Viven en el mismo chat de WhatsApp y se pasan la posta entre ellos.
+Each cat is an agent with a clear job. They all live in the same WhatsApp chat and hand work off to each other.
 
-| | Gato | Qué hace por el negocio |
+| | Cat | What it does for the business |
 | :---: | --- | --- |
-| <img src="./assets/sales-cat.webp" width="56"> | **Sales Cat** | Registra ventas, arma cotizaciones en PDF, atiende a los clientes y avisa cuando aceptan un pedido |
-| <img src="./assets/invoice-cat.webp" width="56"> | **Invoice Cat** | Emite facturas, boletas, notas de crédito y guías de remisión ante SUNAT |
-| <img src="./assets/stock-cat.webp" width="56"> | **Stock Cat** | Lleva el inventario y avisa antes de que algo se acabe; el stock baja solo con cada venta |
-| <img src="./assets/collections-cat.webp" width="56"> | **Collections Cat** | Lleva lo que le deben al negocio, recuerda con tacto y valida pagos por Yape o Mercado Pago |
-| <img src="./assets/reorder-cat.webp" width="56"> | **Reorder Cat** | Propone reponer, compara precios entre proveedores y les escribe a nombre del negocio |
-| <img src="./assets/support-cat.webp" width="56"> | **Support Cat** | Postventa 24/7: responde preguntas frecuentes y pasa a la dueña solo lo que no sabe |
-| <img src="./assets/tender-cat.webp" width="56"> | **Tender Cat** | Encuentra licitaciones del Estado que encajan con el negocio y ayuda con el expediente |
+| <img src="./assets/sales-cat.webp" width="56"> | **Sales Cat** | Records sales, builds PDF quotes, serves customers and flags when they accept an order |
+| <img src="./assets/invoice-cat.webp" width="56"> | **Invoice Cat** | Issues invoices, receipts, credit notes and shipping guides with SUNAT, Peru's tax authority |
+| <img src="./assets/stock-cat.webp" width="56"> | **Stock Cat** | Keeps inventory and warns before anything runs out; stock goes down automatically with every sale |
+| <img src="./assets/collections-cat.webp" width="56"> | **Collections Cat** | Tracks what customers owe, sends tactful reminders and validates payments via Yape or Mercado Pago |
+| <img src="./assets/reorder-cat.webp" width="56"> | **Reorder Cat** | Suggests restocking, compares supplier prices and messages suppliers on the business's behalf |
+| <img src="./assets/support-cat.webp" width="56"> | **Support Cat** | 24/7 after-sales: answers common questions and only escalates what it doesn't know |
+| <img src="./assets/tender-cat.webp" width="56"> | **Tender Cat** | Finds public procurement tenders that fit the business and helps prepare the bid |
 
 ---
 
-## Lo que ya construimos
+## What we've built
 
-**Desde el 26 de agosto de 2026**
+**Since August 26, 2026**
 
 <table>
 <tr>
-<td align="center"><b>7</b><br>gatos en producción</td>
-<td align="center"><b>140</b><br>cambios revisados y fusionados</td>
-<td align="center"><b>+1 000</b><br>pruebas automáticas</td>
-<td align="center"><b>20</b><br>decisiones de arquitectura documentadas</td>
+<td align="center"><b>7</b><br>cats in production</td>
+<td align="center"><b>140</b><br>reviewed and merged changes</td>
+<td align="center"><b>1,000+</b><br>automated tests</td>
+<td align="center"><b>20</b><br>documented architecture decisions</td>
 </tr>
 </table>
 
-- **Un solo chat para todo.** La dueña escribe o manda un audio, una foto o un PDF, y el gato correcto lo entiende. Las ráfagas de mensajes se agrupan para responder una sola vez.
-- **Facturación electrónica real ante SUNAT,** con certificado digital y guías de remisión, desde el chat o desde el portal.
-- **Cobros sin fricción:** suscripciones y pagos únicos con Mercado Pago y Yape, y links de pago por cada deuda de un cliente.
-- **El negocio frente a sus clientes:** Sales y Support atienden en el WhatsApp de la empresa, cotizan con el catálogo y la dueña puede tomar la conversación cuando quiera.
-- **Proveedores incluidos:** Reorder pide precios a varios proveedores, hace el pedido en firme y les insiste si no responden.
-- **Un resumen al día.** Un solo mensaje por la noche con lo que pasó en todos los gatos, en vez de transcripciones.
-- **Portal web** ([app.meowlab.tech](https://app.meowlab.tech)): empresas e invitaciones al equipo, el consejo de gatos con su actividad de la semana, plan y pagos, Libro de Reclamaciones y la configuración de cada gato.
-- **Seguridad desde el diseño:** cada empresa aislada de las demás, mensajes firmados entre servicios, secretos fuera del código y todo lo desplegado sale de un commit revisado.
+- **One chat for everything.** The owner types, sends a voice note, a photo or a PDF, and the right cat understands it. Bursts of messages are grouped so the cat answers once.
+- **Real e-invoicing with SUNAT,** with digital certificates and shipping guides, from the chat or the web portal.
+- **Frictionless payments:** subscriptions and one-time payments with Mercado Pago and Yape, plus a payment link for each customer debt.
+- **The business, facing its customers:** Sales and Support answer on the company's own WhatsApp, quote from the catalog, and the owner can take over the conversation at any time.
+- **Suppliers included:** Reorder requests prices from several suppliers, places the firm order and follows up when they don't reply.
+- **One daily summary.** A single evening message covering what happened across all cats, instead of transcripts.
+- **Web portal** ([app.meowlab.tech](https://app.meowlab.tech)): companies and team invitations, the cat council with the week's activity, plan and payments, a complaints book as required by Peruvian law, and settings for every cat.
+- **Security by design:** every company isolated from the others, signed messages between services, secrets kept out of the code, and everything deployed comes from a reviewed commit.
 
-### Cómo está hecho
+### How it's built
 
-| Capa | Tecnología |
+| Layer | Technology |
 | --- | --- |
-| Entrada de WhatsApp | Meta Cloud API y Kapso, con un único webhook firmado |
-| Conversación | Cloudflare Workers, D1, Durable Objects, R2 y Browser Run (PDF) |
-| Negocio de cada empresa | Servicio Node en un VPS con PostgreSQL, un esquema por gato |
-| Portal | Hono + React, sesión segura y app Android en camino |
-| Inteligencia | Modelos de lenguaje para texto, audio, imágenes y documentos, siempre con respuestas estructuradas |
+| WhatsApp entry point | Meta Cloud API and Kapso, behind a single signed webhook |
+| Conversations | Cloudflare Workers, D1, Durable Objects, R2 and Browser Run (PDF) |
+| Each company's business data | Node service on a VPS with PostgreSQL, one schema per cat |
+| Portal | Hono + React, secure sessions, Android app on the way |
+| Intelligence | Language models for text, audio, images and documents, always with structured outputs |
 
 ---
 
-## Hacia dónde vamos
+## Where we're heading
 
-**1. Gatos replicables, con un mismo molde.** Cada gato pasa a ser una ficha (de qué temas es dueño, con quién habla, sus herramientas, sus tareas y su personalidad) sobre un ciclo común. El núcleo ya está construido; Sales es el primero en mudarse y le siguen los demás.
+**1. Reusable cats, built from one mold.** Each cat becomes a spec sheet (the topics it owns, who it talks to, its tools, its tasks and its personality) on top of a shared runtime. The core is already built; Sales moves first and the rest follow.
 
-**2. Hablarle sin comandos.** «¿Cuántos clientes nuevos tengo hoy?» llega a Sales; «¿cuánto me debe Juan?» llega a Collections. Si hay dos Juan, el gato pregunta a cuál te refieres.
+**2. Talk to them without commands.** "How many new customers did I get today?" goes to Sales; "How much does Juan owe me?" goes to Collections. If there are two Juans, the cat asks which one you mean.
 
-**3. Gatos que trabajan solos.** Cada gato lleva su lista de tareas, visible en el portal, y las cumple a tiempo: hace seguimiento a cotizaciones, recuerda promociones y escribe en un horario razonable, sin perder la ventana de conversación de WhatsApp.
+**3. Cats that work on their own.** Every cat keeps a task list, visible in the portal, and gets it done on time: following up on quotes, reminding customers about promotions, and messaging at a reasonable hour without losing WhatsApp's conversation window.
 
-**4. Que conozcan tu negocio.** Historia, equipo y promociones vigentes cargadas una vez en el portal, para que todos los gatos respondan con ese contexto.
+**4. Cats that know your business.** Company story, team and current promotions, loaded once in the portal, so every cat answers with that context.
 
-**5. Personalidad a elección.** Un Sales amable, uno conciso o uno negociador, con un clic, o ajustado a la medida de cada negocio.
+**5. Personality of your choice.** A friendly, a concise or a negotiating Sales Cat in one click, or tuned to fit each business.
 
-**6. MeowLab en el bolsillo.** La app Android, cuando el portal tenga todo lo que la dueña necesita.
+**6. MeowLab in your pocket.** The Android app, once the portal has everything the owner needs.
 
 ---
 
 <div align="center">
 
-Hecho en Perú, para quienes sacan adelante su negocio todos los días.
+Made in Peru, for the people who keep their businesses going every day.
 
 </div>
